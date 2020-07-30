@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="13" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Load Department" duration-ms="181" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.FirstTest()[pri:0, instance:test.Day1@4f970963]" name="FirstTest" class="test.Day1"/>
+        <method signature="Day2.thirdTest(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@65e2dbf3]" name="thirdTest" class="test.Day2"/>
+        <method signature="Day4.MobileloginHomeLoan()[pri:0, instance:test.Day4@61f8bee4]" name="MobileloginHomeLoan" class="test.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="car loan" duration-ms="105" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+      <class name="test.Day3">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:test.Day3@6c49835d]" name="beforesuite" is-config="true" duration-ms="17" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String)[pri:0, instance:test.Day3@6c49835d]" name="WebloginCarLoan" duration-ms="37" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:test.Day3@6c49835d]" name="aftersuite" is-config="true" duration-ms="10" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- car loan -->
+    <test name="personal loan" duration-ms="177" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:test.Day1@4f970963]" name="FirstTest" duration-ms="17" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="FAIL" signature="SecondTest()[pri:0, instance:test.Day1@4f970963]" name="SecondTest" duration-ms="12" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at test.Day1.SecondTest(Day1.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:test.Day1@4f970963]" name="secondTest" is-config="true" duration-ms="1" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:test.Day2@65e2dbf3]" name="FirstTest" is-config="true" duration-ms="0" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@65e2dbf3]" name="Login" duration-ms="6" started-at="2020-07-13T17:28:51 IST" data-provider="getdata" finished-at="2020-07-13T17:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@65e2dbf3]" name="Login" duration-ms="7" started-at="2020-07-13T17:28:51 IST" data-provider="getdata" finished-at="2020-07-13T17:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@65e2dbf3]" name="Login" duration-ms="2" started-at="2020-07-13T17:28:51 IST" data-provider="getdata" finished-at="2020-07-13T17:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="thirdTest(java.lang.String, java.lang.String)[pri:0, instance:test.Day2@65e2dbf3]" name="thirdTest" duration-ms="4" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Narendra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day4">
+        <test-method status="PASS" signature="MobileloginHomeLoan()[pri:0, instance:test.Day4@61f8bee4]" name="MobileloginHomeLoan" duration-ms="3" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:test.Day4@61f8bee4]" name="WebloginHomeLoan" duration-ms="7" started-at="2020-07-13T17:28:51 IST" finished-at="2020-07-13T17:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- personal loan -->
+  </suite> <!-- Load Department -->
+</testng-results>
